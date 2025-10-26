@@ -1,0 +1,250 @@
+================================================================================
+Query: For the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 50.29%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 18 - Similarity: 49.81%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+3. Psalter Psalm 42 - Similarity: 47.85%
+Judge me, God, and give judgment in my cause against a nation that is not holy; deliver me from an unjust and deceitful man. 
+
+
+4. Bible Psalm 71 - Similarity: 47.2%
+For Solomon OGod give Your judgments to the King And Your righteousness to the Kings Son That He may judge Your people in rig
+
+
+5. Bible Psalm 147 - Similarity: 47.16%
+Alleluia of Aggeus and Zacharias Praise the Lord O Jerusalem Praise your God O Zion For He strengthens the bars of your gates
+
+
+
+================================================================================
+Query: For the truth
+Model: SBERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 35.17%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 69 - Similarity: 30.13%
+For the End by David in remembrance 2that the Lord may save me OGod make haste to help me May those who seek my soul be disho
+
+
+3. Bible Psalm 18 - Similarity: 26.62%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+4. Bible Psalm 17 - Similarity: 25.18%
+1For the End by the child of the Lord David what things he spoke to the Lord even the words of this ode in the day the Lord d
+
+
+5. Psalter Psalm 15 - Similarity: 24.91%
+Preserve me, O Lord, for in Thee have I put my hope. I said unto the Lord, Thou art my Lord, for Thou hast no need of my good
+
+
+
+================================================================================
+Query: for the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 50.29%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 18 - Similarity: 49.81%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+3. Psalter Psalm 42 - Similarity: 47.85%
+Judge me, God, and give judgment in my cause against a nation that is not holy; deliver me from an unjust and deceitful man. 
+
+
+4. Bible Psalm 71 - Similarity: 47.2%
+For Solomon OGod give Your judgments to the King And Your righteousness to the Kings Son That He may judge Your people in rig
+
+
+5. Bible Psalm 147 - Similarity: 47.16%
+Alleluia of Aggeus and Zacharias Praise the Lord O Jerusalem Praise your God O Zion For He strengthens the bars of your gates
+
+
+
+================================================================================
+Query: for the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 817 - Similarity: 77.05%
+God settles the solitary in a house With courage He leads out those in bondage Likewise those who rebel who dwell in tombs
+
+
+2. Psalter Psalm 851 - Similarity: 75.68%
+O God You know my foolishness And my transgressions are not hidden from You
+
+
+3. Psalter Psalm 353 - Similarity: 63.01%
+O Lord Your mercy is in heaven And Your truth reaches to the clouds
+
+
+4. Psalter Psalm 609 - Similarity: 62.15%
+You shall make me hear joy and gladness My bones that were humbled shall greatly rejoice
+
+
+5. Psalter Psalm 1244 - Similarity: 62.13%
+O Lord God of hosts who is like You You are powerful O Lord and Your truth is around You
+
+
+
+================================================================================
+Query: For the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 50.29%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 18 - Similarity: 49.81%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+3. Psalter Psalm 42 - Similarity: 47.85%
+Judge me, God, and give judgment in my cause against a nation that is not holy; deliver me from an unjust and deceitful man. 
+
+
+4. Bible Psalm 71 - Similarity: 47.2%
+For Solomon OGod give Your judgments to the King And Your righteousness to the Kings Son That He may judge Your people in rig
+
+
+5. Bible Psalm 147 - Similarity: 47.16%
+Alleluia of Aggeus and Zacharias Praise the Lord O Jerusalem Praise your God O Zion For He strengthens the bars of your gates
+
+
+
+================================================================================
+Query: For the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 817 - Similarity: 77.05%
+God settles the solitary in a house With courage He leads out those in bondage Likewise those who rebel who dwell in tombs
+
+
+2. Psalter Psalm 851 - Similarity: 75.68%
+O God You know my foolishness And my transgressions are not hidden from You
+
+
+3. Psalter Psalm 353 - Similarity: 63.01%
+O Lord Your mercy is in heaven And Your truth reaches to the clouds
+
+
+4. Psalter Psalm 609 - Similarity: 62.15%
+You shall make me hear joy and gladness My bones that were humbled shall greatly rejoice
+
+
+5. Psalter Psalm 1244 - Similarity: 62.13%
+O Lord God of hosts who is like You You are powerful O Lord and Your truth is around You
+
+
+
+================================================================================
+Query: For the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 50.29%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 18 - Similarity: 49.81%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+3. Psalter Psalm 42 - Similarity: 47.85%
+Judge me, God, and give judgment in my cause against a nation that is not holy; deliver me from an unjust and deceitful man. 
+
+
+4. Bible Psalm 71 - Similarity: 47.2%
+For Solomon OGod give Your judgments to the King And Your righteousness to the Kings Son That He may judge Your people in rig
+
+
+5. Bible Psalm 147 - Similarity: 47.16%
+Alleluia of Aggeus and Zacharias Praise the Lord O Jerusalem Praise your God O Zion For He strengthens the bars of your gates
+
+
+
+================================================================================
+Query: For the truth
+Model: BERT
+Top 5 matching psalms:
+1. Psalter Psalm 817 - Similarity: 77.05%
+God settles the solitary in a house With courage He leads out those in bondage Likewise those who rebel who dwell in tombs
+
+
+2. Psalter Psalm 851 - Similarity: 75.68%
+O God You know my foolishness And my transgressions are not hidden from You
+
+
+3. Psalter Psalm 353 - Similarity: 63.01%
+O Lord Your mercy is in heaven And Your truth reaches to the clouds
+
+
+4. Psalter Psalm 609 - Similarity: 62.15%
+You shall make me hear joy and gladness My bones that were humbled shall greatly rejoice
+
+
+5. Psalter Psalm 1244 - Similarity: 62.13%
+O Lord God of hosts who is like You You are powerful O Lord and Your truth is around You
+
+
+
+================================================================================
+Query: For the truth
+Model: SBERT
+Top 5 matching psalms:
+1. Psalter Psalm 1174 - Similarity: 42.67%
+Blessed is the man whose help is from You O Lord He purposed ascents in his heart
+
+
+2. Psalter Psalm 843 - Similarity: 41.6%
+Sing to God you kingdoms of the earth sing to the Lord Pause
+
+
+3. Psalter Psalm 1573 - Similarity: 41.0%
+Then they believed His words And sang His praise
+
+
+4. Psalter Psalm 847 - Similarity: 40.97%
+For the End concerning things that shall be changed by David Save me O God for the waters flood my soul
+
+
+5. Psalter Psalm 1211 - Similarity: 40.67%
+Work a sign in my midst for good And let those who hate me see it and be disgraced For You O Lord helped me and comforted me
+
+
+
+================================================================================
+Query: For the truth
+Model: SBERT
+Top 5 matching psalms:
+1. Psalter Psalm 34 - Similarity: 35.17%
+Judge Thou, O Lord, them that do me injustice; fight against them that fight against me. Take hold of weapon and buckler, and
+
+
+2. Bible Psalm 69 - Similarity: 30.13%
+For the End by David in remembrance 2that the Lord may save me OGod make haste to help me May those who seek my soul be disho
+
+
+3. Bible Psalm 18 - Similarity: 26.62%
+For the End a psalm by David The heavens declare the glory of God The firmament shows the creation of His hands Day to day ut
+
+
+4. Bible Psalm 17 - Similarity: 25.18%
+1For the End by the child of the Lord David what things he spoke to the Lord even the words of this ode in the day the Lord d
+
+
+5. Psalter Psalm 15 - Similarity: 24.91%
+Preserve me, O Lord, for in Thee have I put my hope. I said unto the Lord, Thou art my Lord, for Thou hast no need of my good
+
+
+
