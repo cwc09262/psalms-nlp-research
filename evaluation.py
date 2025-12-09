@@ -37,10 +37,10 @@ def get_unscored_index(df):
         return None, 0
     return random.choice(df_unscored.index.tolist()), len(df_unscored)
 
-def show_row(df, idx, remaining):
+def show_row(df, idx, remaining, percent):
     row = df.loc[idx]
     print("\n======================================")
-    print(f"UNSCORED PSALMS LEFT: {remaining}")
+    print(f"UNSCORED PSALMS LEFT: {remaining}, ({percent}%)")
     print("QUERY:")
     print(row["Query"])
     print("\nRESULT:")
@@ -70,7 +70,7 @@ def main():
             save_data(df)
             break
 
-        show_row(df, idx, remaining)
+        show_row(df, idx, remaining, remaining/len(df))
         score = get_score()
 
         if score is None:
