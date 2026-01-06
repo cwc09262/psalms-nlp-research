@@ -16,7 +16,7 @@ All of the data, was scraped, organized and cleaned from the original repository
 
 This repository explores four different approaches for analyzing and retrieving text from the Book of Psalms using embedding-based similarity, vector space models, and semantic search techniques.
 
-<b>`TF-IDF`</b> \- A statistical measure used to evaluate the importance of a word in a document relative to a collection of documents \(the corpus\)\.
+<b>`TF-IDF`</b> \- A statistical measure used to evaluate the importance of a word in a document relative to a collection of documents \(the corpus\)\. Finding the meaning and context of words soley on word frequency.
 
 <b>`TF-IDF scaled by GLoVe Vector Weights`</b> \- Taking the precomputed vectors produced by **TF-IDF**, and weighting each term to it's semantic meaning according to a specific pre-trained GLoVe embedding space.
 
