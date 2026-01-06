@@ -10,15 +10,16 @@ This repository is dedicated to research on NLP analysis of the Book of Psalms, 
 
 This study is only focusing on Psalms from the Christian Orthodox Church. There are two different souces of Psalms being used. One of them comes from The Book of Psalms within the Orthodox Study Bible. The Other source of Psalms comes from The Psalter According to the Seventy.
 
-All of the data, was scraped, organized and cleaned from the original repository as well. The or5iginal commit history from the previous repository has been coppie3d over to this current repository as well.
+All of the data, was scraped, organized and cleaned from the original repository as well. The original commit history from the previous repository has been coppie3d over to this current repository as well.
 
 ## Methods Applied
 
 This repository explores four different approaches for analyzing and retrieving text from the Book of Psalms using embedding-based similarity, vector space models, and semantic search techniques.
 
-<b>`TF-IDF`</b> \- A statistical measure used to evaluate the importance of a word in a document relative to a collection of documents \(the corpus\)\. Finding the meaning and context of words soley on word frequency.
+**`TF-IDF`** \- A statistical measure used to evaluate the importance of a word in a document relative to a collection of documents \(the corpus\)\. Finding the meaning and context of words soley on word frequency.
 
-<b>`TF-IDF scaled by GLoVe Vector Weights`</b> \- Taking the precomputed vectors produced by **TF-IDF**, and weighting each term to it's semantic meaning according to a specific pre-trained GLoVe embedding space.
+
+**`TF-IDF scaled by GLoVe Vector Weights`** \- Taking the precomputed vectors produced by **TF-IDF**, and weighting each term to it's semantic meaning according to a specific pre-trained GLoVe embedding space.
 
 Using this [github repository](https://github.com/stanfordnlp/GloVe) to generate the GLoVe embeddings
 
