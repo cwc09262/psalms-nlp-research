@@ -32,7 +32,7 @@ Using a mix of contextual transformers and traditional statistical text‑embedd
 
 ## Blind Scoring Evaluation
 
-An importatn aspect of the research conduycted stems from the evaluation of each of the different [methods](#methods-applied). Being able to get fair results, without bias, was vital. Using code, written by AI, I was able to get results to score blindly for my own scoring. There are 8 different queries and the top 5 results were colected. This was preformed for each of the four different methods mentioned above.
+An importatn aspect of the research conduycted stems from the evaluation of each of the different [methods](#methods-applied). Being able to get fair results, without bias, was vital. Using code, written by AI, I was able to get results to score blindly for my own scoring. There are 9 different queries and the top 5 results were colected. This was preformed for each of the four different methods mentioned above.
 
 The algorithm works by randomly picking and results that was not scored yet. Once picked, the query is given with the specific result. A promopt was given to rate the specifc relaut based on the query on a scale of 0 to 10, with ten being the most accurate or meaningful result. This was all done via the terminal.
 
