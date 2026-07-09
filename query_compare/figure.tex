@@ -1,0 +1,347 @@
+% This file was created with matplot2tikz v0.5.3.
+\begin{tikzpicture}
+
+\definecolor{darkgray176}{RGB}{176,176,176}
+\definecolor{darkslateblue60101130}{RGB}{60,101,130}
+\definecolor{darkslateblue7466121}{RGB}{74,66,121}
+\definecolor{darkslategray66}{RGB}{66,66,66}
+\definecolor{lightgray204}{RGB}{204,204,204}
+\definecolor{mediumseagreen69166119}{RGB}{69,166,119}
+\definecolor{seagreen46130127}{RGB}{46,130,127}
+\definecolor{yellowgreen14319685}{RGB}{143,196,85}
+
+\begin{groupplot}[group style={group size=2 by 2}]
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+tick align=outside,
+tick pos=left,
+title={BERT},
+unbounded coords=jump,
+x grid style={darkgray176},
+xmin=-0.5, xmax=4.5,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Human Score},
+ymin=0, ymax=10,
+ytick style={color=black}
+]
+\draw[draw=black,fill=darkslateblue7466121] (axis cs:-0.4,0) rectangle (axis cs:0.4,6.7);
+\draw[draw=black,fill=darkslateblue60101130,postaction={pattern=north east lines}] (axis cs:0.6,0) rectangle (axis cs:1.4,6.7);
+\draw[draw=black,fill=seagreen46130127,postaction={pattern=crosshatch}] (axis cs:1.6,0) rectangle (axis cs:2.4,5.9);
+\draw[draw=black,fill=mediumseagreen69166119,postaction={pattern=crosshatch dots}] (axis cs:2.6,0) rectangle (axis cs:3.4,4.8);
+\draw[draw=black,fill=yellowgreen14319685,postaction={pattern=grid}] (axis cs:3.6,0) rectangle (axis cs:4.4,7.4);
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+0 nan
+0 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+1 nan
+1 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+2 nan
+2 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+3 nan
+3 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+4 nan
+4 nan
+};
+\addplot [semithick, red, dashed]
+table {%
+-0.5 6.3
+4.5 6.3
+};
+\addlegendentry{Avg: 6.30}
+\draw (axis cs:0,6.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{6.70};
+\draw (axis cs:1,6.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{6.70};
+\draw (axis cs:2,5.9) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.90};
+\draw (axis cs:3,4.8) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.80};
+\draw (axis cs:4,7.4) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{7.40};
+
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+scaled y ticks=manual:{}{\pgfmathparse{#1}},
+tick align=outside,
+tick pos=left,
+title={SBERT},
+unbounded coords=jump,
+x grid style={darkgray176},
+xmin=-0.5, xmax=4.5,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Human Score},
+ymin=0, ymax=10,
+ytick style={color=black},
+yticklabels={}
+]
+\draw[draw=black,fill=darkslateblue7466121] (axis cs:-0.4,0) rectangle (axis cs:0.4,6.4);
+\draw[draw=black,fill=darkslateblue60101130,postaction={pattern=north east lines}] (axis cs:0.6,0) rectangle (axis cs:1.4,4.6);
+\draw[draw=black,fill=seagreen46130127,postaction={pattern=crosshatch}] (axis cs:1.6,0) rectangle (axis cs:2.4,4);
+\draw[draw=black,fill=mediumseagreen69166119,postaction={pattern=crosshatch dots}] (axis cs:2.6,0) rectangle (axis cs:3.4,4.3);
+\draw[draw=black,fill=yellowgreen14319685,postaction={pattern=grid}] (axis cs:3.6,0) rectangle (axis cs:4.4,4.4);
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+0 nan
+0 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+1 nan
+1 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+2 nan
+2 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+3 nan
+3 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+4 nan
+4 nan
+};
+\addplot [semithick, red, dashed]
+table {%
+-0.5 4.74
+4.5 4.74
+};
+\addlegendentry{Avg: 4.74}
+\draw (axis cs:0,6.4) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{6.40};
+\draw (axis cs:1,4.6) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.60};
+\draw (axis cs:2,4) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.00};
+\draw (axis cs:3,4.3) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.30};
+\draw (axis cs:4,4.4) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.40};
+
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+tick align=outside,
+tick pos=left,
+title={TFIDF},
+unbounded coords=jump,
+x grid style={darkgray176},
+xmin=-0.5, xmax=4.5,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Human Score},
+ymin=0, ymax=10,
+ytick style={color=black}
+]
+\draw[draw=black,fill=darkslateblue7466121] (axis cs:-0.4,0) rectangle (axis cs:0.4,4.8);
+\draw[draw=black,fill=darkslateblue60101130,postaction={pattern=north east lines}] (axis cs:0.6,0) rectangle (axis cs:1.4,7.4);
+\draw[draw=black,fill=seagreen46130127,postaction={pattern=crosshatch}] (axis cs:1.6,0) rectangle (axis cs:2.4,7.7);
+\draw[draw=black,fill=mediumseagreen69166119,postaction={pattern=crosshatch dots}] (axis cs:2.6,0) rectangle (axis cs:3.4,6.6);
+\draw[draw=black,fill=yellowgreen14319685,postaction={pattern=grid}] (axis cs:3.6,0) rectangle (axis cs:4.4,5.7);
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+0 nan
+0 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+1 nan
+1 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+2 nan
+2 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+3 nan
+3 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+4 nan
+4 nan
+};
+\addplot [semithick, red, dashed]
+table {%
+-0.5 6.44
+4.5 6.44
+};
+\addlegendentry{Avg: 6.44}
+\draw (axis cs:0,4.8) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{4.80};
+\draw (axis cs:1,7.4) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{7.40};
+\draw (axis cs:2,7.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{7.70};
+\draw (axis cs:3,6.6) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{6.60};
+\draw (axis cs:4,5.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.70};
+
+\nextgroupplot[
+legend cell align={left},
+legend style={fill opacity=0.8, draw opacity=1, text opacity=1, draw=lightgray204},
+scaled y ticks=manual:{}{\pgfmathparse{#1}},
+tick align=outside,
+tick pos=left,
+title={TFIDF\_GLoVe},
+unbounded coords=jump,
+x grid style={darkgray176},
+xmin=-0.5, xmax=4.5,
+xtick style={color=black},
+y grid style={darkgray176},
+ylabel={Human Score},
+ymin=0, ymax=10,
+ytick style={color=black},
+yticklabels={}
+]
+\draw[draw=black,fill=darkslateblue7466121] (axis cs:-0.4,0) rectangle (axis cs:0.4,5.6);
+\draw[draw=black,fill=darkslateblue60101130,postaction={pattern=north east lines}] (axis cs:0.6,0) rectangle (axis cs:1.4,6.6);
+\draw[draw=black,fill=seagreen46130127,postaction={pattern=crosshatch}] (axis cs:1.6,0) rectangle (axis cs:2.4,5.3);
+\draw[draw=black,fill=mediumseagreen69166119,postaction={pattern=crosshatch dots}] (axis cs:2.6,0) rectangle (axis cs:3.4,8.7);
+\draw[draw=black,fill=yellowgreen14319685,postaction={pattern=grid}] (axis cs:3.6,0) rectangle (axis cs:4.4,5.7);
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+0 nan
+0 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+1 nan
+1 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+2 nan
+2 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+3 nan
+3 nan
+};
+\addplot [line width=1.08pt, darkslategray66, forget plot]
+table {%
+4 nan
+4 nan
+};
+\addplot [semithick, red, dashed]
+table {%
+-0.5 6.38
+4.5 6.38
+};
+\addlegendentry{Avg: 6.38}
+\draw (axis cs:0,5.6) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.60};
+\draw (axis cs:1,6.6) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{6.60};
+\draw (axis cs:2,5.3) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.30};
+\draw (axis cs:3,8.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{8.70};
+\draw (axis cs:4,5.7) ++(0pt,3pt) node[
+  scale=0.5,
+  anchor=south,
+  text=black,
+  rotate=0.0
+]{5.70};
+\end{groupplot}
+
+\end{tikzpicture}
