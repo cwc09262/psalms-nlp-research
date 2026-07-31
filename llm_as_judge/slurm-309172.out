@@ -1,0 +1,126 @@
+---------- Start job 309172
+Loading anaconda3/2025.06
+  Loading requirement: glibc/2.35-gcc-12.3.0-apgnhh4
+    gcc-runtime/12.3.0-gcc-12.3.0-6x65rea
+Python:
+Python 3.10.20
+4.45.2
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.11it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.03it/s]
+Starting from v4.46, the `logits` model output will have the same type as the model (except at train time, where it will always be FP32)
+You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+              Method  Rank
+791   TF-IDF + GloVe     2
+796             BERT     2
+802            SBERT     2
+806           TF-IDF     2
+1776  TF-IDF + GloVe     2
+1781            BERT     2
+1787           SBERT     2
+1791          TF-IDF     2
+Selected query=Have Mercy on me
+Selected rank=2
+Rows returned=4
+RAW: 'X'
+RAW: 'A'
+RAW: 'X'
+RAW: 'X'
+RAW: 'B'
+RAW: 'X'
+Wins: {'A': 3, 'B': 1, 'C': 1, 'D': 1}
+Ranking: ['A', 'B', 'C', 'D']
+Saved results_scored.csv
+              Method  Rank
+355   TF-IDF + GloVe     1
+360             BERT     1
+365            SBERT     1
+370           TF-IDF     1
+1340  TF-IDF + GloVe     1
+1345            BERT     1
+1350           SBERT     1
+1355          TF-IDF     1
+Selected query=Love
+Selected rank=1
+Rows returned=4
+RAW: 'B'
+RAW: 'X'
+RAW: 'A'
+RAW: 'A'
+RAW: 'X'
+RAW: 'A'
+Wins: {'A': 2, 'B': 1, 'C': 3, 'D': 0}
+Ranking: ['C', 'A', 'B', 'D']
+Saved results_scored.csv
+              Method  Rank
+593   TF-IDF + GloVe     4
+598             BERT     4
+604            SBERT     4
+608           TF-IDF     4
+1578  TF-IDF + GloVe     4
+1583            BERT     4
+1589           SBERT     4
+1593          TF-IDF     4
+Selected query=Find psalms that describe God as a refuge and protector in the context of enemies, oppression, or danger, emphasizing both emotional dependence and divine justice
+Selected rank=4
+Rows returned=4
+RAW: 'X'
+RAW: 'X'
+RAW: 'X'
+RAW: 'A'
+RAW: 'A'
+RAW: 'X'
+Wins: {'A': 2, 'B': 3, 'C': 1, 'D': 0}
+Ranking: ['B', 'A', 'C', 'D']
+Saved results_scored.csv
+              Method  Rank
+770   TF-IDF + GloVe     1
+775             BERT     1
+784            SBERT     1
+785           TF-IDF     1
+1755  TF-IDF + GloVe     1
+1760            BERT     1
+1769           SBERT     1
+1770          TF-IDF     1
+Selected query=Lord I have cried unto thee
+Selected rank=1
+Rows returned=4
+RAW: 'X'
+RAW: 'A'
+RAW: 'A'
+RAW: 'X'
+RAW: 'X'
+RAW: 'X'
+Wins: {'A': 2, 'B': 1, 'C': 2, 'D': 1}
+Ranking: ['A', 'C', 'B', 'D']
+Saved results_scored.csv
+              Method  Rank
+593   TF-IDF + GloVe     4
+598             BERT     4
+604            SBERT     4
+608           TF-IDF     4
+1578  TF-IDF + GloVe     4
+1583            BERT     4
+1589           SBERT     4
+1593          TF-IDF     4
+Selected query=Find psalms that describe God as a refuge and protector in the context of enemies, oppression, or danger, emphasizing both emotional dependence and divine justice
+Selected rank=4
+Rows returned=4
+RAW: 'A'
+RAW: 'A'
+RAW: 'A'
+RAW: 'A'
+RAW: 'A'
+RAW: 'X'
+Wins: {'A': 1, 'B': 0, 'C': 2, 'D': 3}
+Ranking: ['D', 'C', 'A', 'B']
+Saved results_scored.csv
+
+Ranking Frequencies
+----------------------------------------
+ABCD: 1 (20.00%)
+CABD: 1 (20.00%)
+BACD: 1 (20.00%)
+ACBD: 1 (20.00%)
+DCAB: 1 (20.00%)
+Remaining rows: 879
+Finished scoring.
+----------- Job 309172 complete
